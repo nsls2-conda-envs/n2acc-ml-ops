@@ -15,6 +15,7 @@ dependencies:
   # - carchivetools # Not in conda-forge
   - cothread
   - ipython
+  - git # Needed if you use 'git+https' or 'git+ssh' under "pip" dependencies
   - pip:
     #- git+ssh://git@github.com/epicsdeb/carchivetools.git
     #- git+ssh://git@github.com/mdavidsaver/carchivetools.git@py3
