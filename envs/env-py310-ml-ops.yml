@@ -1,0 +1,21 @@
+name: py310-ml-ops
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.10,<3.11
+  - conda-pack
+  - pip
+  - numpy
+  - scipy
+  - pytorch
+  - scikit-learn
+  - h5py
+  - twisted
+  - protobuf
+  # - carchivetools # Not in conda-forge
+  - cothread
+  - ipython
+  - pip:
+    #- git+ssh://git@github.com/epicsdeb/carchivetools.git
+    #- git+ssh://git@github.com/mdavidsaver/carchivetools.git@py3
+    - git+https://github.com/yhidaka/carchivetools.git@py3
