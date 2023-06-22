@@ -1,4 +1,4 @@
-name: py310-ml-ops
+name: 2023-1.0-py310-ml-ops
 channels:
   - conda-forge
 dependencies:
