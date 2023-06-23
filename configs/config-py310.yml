@@ -10,7 +10,7 @@ channels: "-c conda-forge"
 
 # --- Based on the contents of /opt/rh/devtoolset-9/enable ---
 # General environment variables
-PATH: "/opt/rh/devtoolset-9/root/usr/bin${PATH:+:${PATH}}"
+PATH: "/opt/rh/devtoolset-9/root/usr/bin:/opt/rh/devtoolset-9/root/usr/libexec/gcc/x86_64-redhat-linux/9:${PATH:+:${PATH}}"
 MANPATH: "/opt/rh/devtoolset-9/root/usr/share/man"
 INFOPATH: "/opt/rh/devtoolset-9/root/usr/share/info"
 PCP_DIR: "/opt/rh/devtoolset-9/root"
